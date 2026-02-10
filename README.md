@@ -6,7 +6,7 @@ Aspiring Associate Product Manager · Technology & product-focused projects
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/https://www.linkedin.com/in/afua-serwaah-atiase/>
+  <a href="https://www.linkedin.com/in/afua-serwaah-atiase/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://github.com/Afia1309">
