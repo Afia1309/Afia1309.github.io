@@ -12,7 +12,7 @@ Aspiring Associate Product Manager · Technology & product-focused projects
   <a href="https://github.com/Afia1309">
     <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" />
   </a>
-  <a href="LINK-TO-YOUR-RESUME">
+  <a <a href="https://afia1309.github.io/Afua_S_Atiase_Resume.pdf">
     <img src="https://img.shields.io/badge/CV-444444?style=flat&logo=googledocs&logoColor=white" />
   </a>
 </p>
