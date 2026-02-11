@@ -1,77 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
   <title>Afua S. Atiase</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
   <style>
-    body{
-      margin:0;
+    body {
+      margin: 0;
       font-family: "Helvetica Neue", Arial, sans-serif;
-      background:#f4f2ee;
-      color:#222;
+      background: #f4f2ee;
+      color: #222;
     }
 
-    .container{
+    .container {
       max-width: 1100px;
-      margin: 70px auto;          /* bring everything up */
+      margin: 80px auto;
       padding: 40px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 80px;
     }
 
-    h1{
+    .left {
+      flex: 1;
+    }
+
+    h1 {
       font-size: 44px;
-      margin: 0 0 14px 0;         /* tighter under name */
+      margin-bottom: 16px;
     }
 
-    .links{
-      margin: 0 0 26px 0;         /* bio moves up */
+    .links {
+      margin-bottom: 28px;
     }
 
-    .links a{
+    .links a {
       margin-right: 18px;
       font-size: 22px;
-      color:#2a5db0;
-      text-decoration:none;
+      color: #2a5db0;
+      text-decoration: none;
     }
 
-    .links a:hover{ opacity: .7; }
+    .links a:hover {
+      opacity: 0.7;
+    }
 
-    .bio{
+    .bio {
       font-size: 17px;
       line-height: 1.8;
-      max-width: 740px;
-      margin: 0;                  /* no extra space before bio */
-      color:#333;
+      max-width: 650px;
+      color: #333;
+    }
+
+    .right {
+      flex-shrink: 0;
+    }
+
+    .profile-img {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    @media (max-width: 900px) {
+      .container {
+        flex-direction: column;
+        gap: 40px;
+      }
+
+      .profile-img {
+        width: 220px;
+        height: 220px;
+      }
     }
   </style>
 </head>
 
 <body>
   <div class="container">
-    <h1>Afua S. Atiase</h1>
+    <div class="left">
+      <h1>Afua S. Atiase</h1>
 
-    <div class="links">
-      <a href="https://www.linkedin.com/in/afua-serwaah-atiase/" target="_blank" aria-label="LinkedIn">
-        <i class="fab fa-linkedin"></i>
-      </a>
+      <div class="links">
+        <a href="https://www.linkedin.com/in/afua-serwaah-atiase/" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
 
-      <a href="https://github.com/Afia1309" target="_blank" aria-label="GitHub">
-        <i class="fab fa-github"></i>
-      </a>
+        <a href="https://github.com/Afia1309" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
 
-      <a href="Afua_S_Atiase_Resume.pdf" target="_blank" aria-label="Resume">
-        <i class="fas fa-file-alt"></i>
-      </a>
+        <a href="Afua_S_Atiase_Resume.pdf" target="_blank">
+          <i class="fas fa-file-alt"></i>
+        </a>
+      </div>
+
+      <p class="bio">
+        I am a Business Administration student with a concentration in Computer Information Systems, with a strong interest in understanding how business strategy and technology intersect in real-world products. My academic and project-based experience includes building and analyzing software-driven solutions using data and modern tools, with an emphasis on applying structured problem-solving and thoughtful design to real-world use cases.
+      </p>
     </div>
 
-    <p class="bio">
-      I am a Business Administration student with a concentration in Computer Information Systems, with a strong interest in understanding how business strategy and technology intersect in real-world products. My academic and project-based experience includes building and analyzing software-driven solutions using data and modern tools, with an emphasis on applying structured problem-solving and thoughtful design to real-world use cases.
-    </p>
+    <div class="right">
+      <img src="profile.jpg" alt="Afua Atiase" class="profile-img">
+    </div>
   </div>
 </body>
 </html>
+
 
