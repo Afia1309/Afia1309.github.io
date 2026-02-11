@@ -1,113 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Afua S. Atiase</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Afua S. Atiase</title>
 
-<!-- ICONS -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-<style>
-body {
-    margin: 0;
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    background-color: #f4f2ee;
-    color: #222;
-}
+  <style>
+    body{
+      margin:0;
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      background:#f4f2ee;
+      color:#222;
+    }
 
-.container {
-    max-width: 1100px;
-    margin: 80px auto;
-    padding: 40px;
-}
+    .container{
+      max-width: 1100px;
+      margin: 70px auto;          /* bring everything up */
+      padding: 40px;
+    }
 
-.top-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    h1{
+      font-size: 44px;
+      margin: 0 0 14px 0;         /* tighter under name */
+    }
 
-.text-section {
-    max-width: 600px;
-}
+    .links{
+      margin: 0 0 26px 0;         /* bio moves up */
+    }
 
-h1 {
-    font-size: 42px;
-    margin-bottom: 25px;
-}
+    .links a{
+      margin-right: 18px;
+      font-size: 22px;
+      color:#2a5db0;
+      text-decoration:none;
+    }
 
-.links {
-    margin-bottom: 35px;
-}
+    .links a:hover{ opacity: .7; }
 
-.links a {
-    margin-right: 20px;
-    font-size: 22px;
-    color: #2a5db0;
-    text-decoration: none;
-}
-
-.links a:hover {
-    opacity: 0.7;
-}
-
-.profile-pic {
-    width: 320px;
-    height: 320px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.section {
-    margin-top: 20px;
-}
-
-.section p {
-    line-height: 1.8;
-    font-size: 17px;
-    color: #333;
-}
-</style>
+    .bio{
+      font-size: 17px;
+      line-height: 1.8;
+      max-width: 740px;
+      margin: 0;                  /* no extra space before bio */
+      color:#333;
+    }
+  </style>
 </head>
 
 <body>
+  <div class="container">
+    <h1>Afua S. Atiase</h1>
 
-<div class="container">
+    <div class="links">
+      <a href="https://www.linkedin.com/in/afua-serwaah-atiase/" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
 
-    <div class="top-section">
+      <a href="https://github.com/Afia1309" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
 
-        <div class="text-section">
-            <h1>Afua S. Atiase</h1>
-
-            <div class="links">
-                <a href="https://www.linkedin.com/in/afua-serwaah-atiase/" target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-
-                <a href="https://github.com/Afia1309" target="_blank">
-                    <i class="fab fa-github"></i>
-                </a>
-
-                <a href="Afua_S_Atiase_Resume.pdf" target="_blank">
-                    <i class="fas fa-file-alt"></i>
-                </a>
-            </div>
-
-            <div class="section">
-                <p>
-                I am a Business Administration student with a concentration in Computer Information Systems, with a strong interest in understanding how business strategy and technology intersect in real-world products. My academic and project-based experience includes building and analyzing software-driven solutions using data and modern tools, with an emphasis on applying structured problem-solving and thoughtful design to real-world use cases.
-                </p>
-            </div>
-
-        </div>
-
-        <img src="profile.jpg" alt="Afua Atiase" class="profile-pic">
-
+      <a href="Afua_S_Atiase_Resume.pdf" target="_blank" aria-label="Resume">
+        <i class="fas fa-file-alt"></i>
+      </a>
     </div>
 
-</div>
-
+    <p class="bio">
+      I am a Business Administration student with a concentration in Computer Information Systems, with a strong interest in understanding how business strategy and technology intersect in real-world products. My academic and project-based experience includes building and analyzing software-driven solutions using data and modern tools, with an emphasis on applying structured problem-solving and thoughtful design to real-world use cases.
+    </p>
+  </div>
 </body>
 </html>
 
