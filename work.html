@@ -27,19 +27,26 @@
     .intro {
       color: #555;
       margin-bottom: 60px;
+      line-height: 1.6;
     }
 
     .project {
-      margin-bottom: 80px;
+      margin-bottom: 90px;
     }
 
     .project h2 {
-      font-size: 24px;
-      margin-bottom: 10px;
+      font-size: 26px;
+      margin-bottom: 8px;
+    }
+
+    .stack {
+      font-size: 13px;
+      color: #2a5db0;
+      margin-bottom: 18px;
     }
 
     .project-section {
-      margin-bottom: 12px;
+      margin-bottom: 14px;
       line-height: 1.7;
     }
 
@@ -62,6 +69,17 @@
       opacity: 0.85;
     }
 
+    .sub-link {
+      margin-top: 12px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .sub-link a {
+      color: #2a5db0;
+      text-decoration: none;
+    }
+
     .back {
       display: inline-block;
       margin-bottom: 40px;
@@ -69,6 +87,7 @@
       color: #2a5db0;
       font-size: 14px;
     }
+
   </style>
 </head>
 
@@ -79,57 +98,68 @@
 
     <h1>Selected Works</h1>
     <p class="intro">
-      Below are selected academic and independent projects. Full source code and documentation are available on my GitHub.
+      A selection of academic and independent projects demonstrating applied AI integration, algorithm analysis, and product-oriented problem solving. Full documentation and source code are available on GitHub.
     </p>
 
-    <!-- Project 1 -->
+    <!-- AI Study Companion -->
     <div class="project">
       <h2>AI Study Companion</h2>
+      <div class="stack">
+        Node.js | Express | AI API Integration | Frontend UI
+      </div>
 
       <div class="project-section">
         <span class="label">What it is:</span>
-        An independent project I built to support my own coursework. The application uses AI to generate quizzes and flashcards from study material, helping reinforce understanding and active recall.
+        A full-stack AI-powered web application that transforms lecture notes into structured study guides, quizzes, and flashcards in seconds. Built to support active recall and streamline study workflows.
       </div>
 
       <div class="project-section">
         <span class="label">My role:</span>
-        Designed and developed the application independently, integrating AI APIs, handling prompt structuring, and implementing front-end interactions for content generation.
+        Independently designed and developed the application, integrating AI APIs, structuring prompts for consistent output, implementing front-end user interactions, and configuring secure environment variables.
       </div>
 
       <div class="project-section">
         <span class="label">What I learned:</span>
-        This project strengthened my understanding of how AI systems can enhance learning experiences. I learned how to structure prompts for meaningful output, manage API integrations securely, and design simple user flows that make AI tools practical and usable.
+        This project strengthened my understanding of applied AI product design. I learned how to translate a real user need into a functional workflow, manage API integrations responsibly, and design an intuitive experience that makes AI genuinely practical and usable.
       </div>
 
-      <a href="https://github.com/Afia1309" target="_blank" class="github-link">
-        View on GitHub →
+      <a href="https://github.com/Afia1309/ai-study-companion" target="_blank" class="github-link">
+        View Project →
       </a>
+
+      <div class="sub-link">
+        Live deployment coming soon.
+      </div>
     </div>
 
-    <!-- Project 2 -->
+    <!-- Fibonacci Performance Analysis -->
     <div class="project">
       <h2>Algorithm Performance Analysis: Fibonacci Timing Review</h2>
+      <div class="stack">
+        Node.js | Algorithm Analysis | Performance Testing | CSV Data Output
+      </div>
 
       <div class="project-section">
         <span class="label">What it is:</span>
-        A Node.js project that compares the performance of recursive and iterative Fibonacci algorithms. Using closure-based timers, the program measures execution time for increasing sequence values and outputs results in CSV format for analysis.
+        A Node.js performance analysis project comparing recursive and iterative Fibonacci implementations. Closure-based timers measure execution time across increasing inputs, with results exported in CSV format for analysis and visualization.
       </div>
 
       <div class="project-section">
         <span class="label">My role:</span>
-        Implemented both recursive and iterative Fibonacci functions, designed closure-based timing logic, executed performance tests from the terminal, and analyzed the timing results using generated graphs.
+        Implemented both recursive and iterative algorithms, designed closure-based timing logic, executed performance tests through the terminal, and analyzed runtime behavior using generated graphs.
       </div>
 
       <div class="project-section">
         <span class="label">What I learned:</span>
-        This project demonstrated how implementation choices directly impact performance. While both algorithms solve the same problem, the recursive approach scales poorly compared to the iterative version. I gained deeper insight into algorithm efficiency, time complexity, and clean function design using closures.
+        This project reinforced how algorithm design directly affects scalability and efficiency. Although both implementations solve the same problem, the recursive approach becomes computationally expensive as input grows, while the iterative method remains efficient. I gained deeper insight into time complexity, performance tradeoffs, and clean function design.
       </div>
 
       <a href="https://github.com/Afia1309" target="_blank" class="github-link">
-        View on GitHub →
+        View Repository →
       </a>
     </div>
 
   </div>
 </body>
 </html>
+
